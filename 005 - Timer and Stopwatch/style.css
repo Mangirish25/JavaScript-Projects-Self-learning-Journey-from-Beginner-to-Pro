@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.container{
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#timerSection, #stopwatchSection{
+    background-color: #f3e8ff;
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+span{
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+#startSW, #startTimer{
+    background: greenyellow;
+}
+
+#pauseSW, #pauseTimer{
+    background: yellow;
+}
+
+#resetSW, #resetTimer{
+    background: red;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+#stopwatchSection{
+    display: none;
+}
+
+#showTimer{
+    background-color: rgb(174, 174, 174);
+}
+
+#showStopwatch{
+    background-color: rgb(214, 214, 214);
+}
+

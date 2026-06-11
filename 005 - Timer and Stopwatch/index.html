@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Timer and Stopwatch</h1>
+
+      <button id="showTimer">Timer</button>
+      <button id="showStopwatch">Stopwatch</button>
+
+      <div id="timerSection">
+        <span id="minutes1">00</span>
+        <span id="colon1">:</span>
+        <span id="seconds1">00</span><br />
+        <input type="range" id="scale" min="1" max="59" value="5" step="1"/>
+
+        <br>
+
+        <button id="startTimer">Start</button>
+        <button id="pauseTimer">Pause</button>
+        <button id="resetTimer">Reset</button>
+      </div>
+
+      <div id="stopwatchSection">
+        <span id="hours2">00</span>
+        <span id="colon2">:</span>
+        <span id="minutes2">00</span>
+        <span id="colon3">:</span>
+        <span id="seconds2">00</span>
+
+        <br>
+
+        <button id="startSW">Start</button>
+        <button id="pauseSW">Pause</button>
+        <button id="resetSW">Reset</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
