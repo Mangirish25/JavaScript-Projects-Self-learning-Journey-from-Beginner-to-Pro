@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    width: 480px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#clock{
+    font-size: 4rem;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px 40px;
+    letter-spacing: 4px;
+}
+
+#date{
+    margin-top: 10px;
+}
